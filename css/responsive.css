@@ -1,0 +1,31 @@
+@media all and (max-width: 992px) {
+    .aleft {
+        width: 100%;
+    }
+    
+    .main-header {order: 1;}
+    .aleft {order: 4;}
+    .main-section {order: 2;}
+    .aright {order: 3;}
+    .main-footer {order: 5;}
+    
+    .main-section {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .aright {
+        width: 100%;
+    }
+    
+    .main-header {order: 1;}
+    .aleft {order: 3;}
+    .main-section {order: 2;}
+    .aright {order: 4;}
+    .main-footer {order: 5;}
+    
+    .main-section {
+        width: 100%;
+    }
+}
